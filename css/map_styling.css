@@ -1,0 +1,16 @@
+html, body {
+ height: 100%; 
+ padding: 0;
+ margin: auto; 
+ width: 80%;
+ }
+/*form adjustments*/ 
+ #form1212 {
+ margin-top: 80px; 
+  margin-left: inherit;
+ }
+
+/*adjusting map height*/ 
+ #map {
+ height:75%;
+ }

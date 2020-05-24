@@ -1,0 +1,35 @@
+<html>
+<head>
+   <meta http-equiv="Access-Control-Allow-Origin" content="*"/>
+   
+   <!-- See These Files -->
+   <link rel="stylesheet" href="css/jquery-ui/jquery-ui.css">
+   <link rel="stylesheet" href="css/map_styling.css">
+   <link rel="stylesheet" href="css/style.css">
+ 
+   
+   <link href="http://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,3001,400,40Oi,600,600i,700,700i" rel="stylesheet">
+   <link href="http://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i" rel="stylesheet">
+   <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+   <script src="js_code.js"></script>
+</head>
+<body>
+<hl id="head"> COVID-19 DETAILS</h1> 
+<div class="w31-main">
+   <div class="w31-from">
+      <form id="form_detail">
+         <div class="w31-user">
+             <input name="country" id="country" type="text" 
+placeholder="Enter Country" required="e_p" />
+         </div>
+             <button class="button" class="btn btn-primary btn-lg">Show Details</button>
+      </form>
+   </div>
+</div>
+<div id="map"></div>
+<script 
+src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCO3hE4bE7WV7mGuXL4kn9c 
+aoWI44tD8Ic&callback=initialize" async defer></script>
+</body> 
+</html>
